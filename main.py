@@ -1,0 +1,1 @@
+{'content': '```python\ndef add(x, y):\n    # Check if inputs are of type int or float, raise TypeError otherwise\n    if not isinstance(x, (int, float)) or not isinstance(y, (int, float)):\n        raise TypeError("Both arguments must be integers or floats")\n    \n    # Perform addition\n    return x + y\n```', 'language': 'python'}
